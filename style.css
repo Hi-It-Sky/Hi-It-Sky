@@ -1,0 +1,91 @@
+/* 
+style for my homework website.
+*/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+body {
+    font-size: 24px;
+    background-color: #d3d3ee;
+    color: #ffffff;
+    }
+
+header {
+    margin-top: 0px;
+    float: left;
+    padding: 50px;
+    width: 100%;
+    color: #ccccff;
+    background-color: #16498f;
+    text-align: left;
+    font-size: 120px;
+    font-family: Helvetica;
+
+
+}
+
+#circle {
+    float: left;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    border: 15px solid #ffffff;
+}
+
+#clear {
+    clear: both;
+}
+
+#blue {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    align-self: top;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background-color: #2b4de6;
+    z-index: -1;
+}
+
+#navigator {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    align-self: top;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background-color: #2b4de6;
+}
+
+#button {
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+    border: 10px solid #f77f10;
+    background-color: #fa903a;
+    color: #ffffff;
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
+    align-content: center;
+    font-family: Impact;
+    border-radius: 2%;
+    clear: both;
+}
+
+#square {
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-right: 25px;
+    width: 215px;
+    height: 44%;
+    border: 15px solid #ffffff;
+}
